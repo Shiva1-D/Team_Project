@@ -1,88 +1,88 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731903657
-default_env.tres::Environment::-1::1731790877::0::1::::<><>::res://Assets/Textures/hdrihaven_com_kiara_3_morning.jpg
-export_presets.cfg::TextFile::-1::1731903657::0::1::::<><>::
-icon.png::CompressedTexture2D::4281203198146694467::1731790877::1731791387::1::::<><>::
-index.apple-touch-icon.png::CompressedTexture2D::6653243820058938894::1731903657::1731903706::1::::<><>::
-index.icon.png::CompressedTexture2D::3167491421782401535::1731903657::1731903706::1::::<><>::
-index.png::CompressedTexture2D::2511854386310089758::1731903657::1731903706::1::::<><>::
-::res://Assets/::1731790245
-::res://Assets/Materials/::1731790245
-Grid.tres::StandardMaterial3D::-1::1731790877::0::1::::<><>::res://Assets/Textures/grid.png
-Track-physicsmaterial.tres::PhysicsMaterial::-1::1731790877::0::1::::<><>::
-::res://Assets/Models/::1731790245
-::res://Assets/Models/Cars/::1731790245
-::res://Assets/Models/Cars/Caterham/::1731876082
-#.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-#_001.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-black.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-Car Paint.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-car-sound-effect-126709.mp3::AudioStreamMP3::5586443368596333390::1731875267::1731875086::1::::<><>::
-Carbon.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::res://Assets/Models/Cars/Caterham/Finishes.Laminate.CarbonFiber.jpg
-caterham.gltf::PackedScene::6490435658373485437::1731790877::1731791389::1::::<><>::uid://dcy60iq0jbgln::::res://Assets/Models/Cars/Caterham/speed.png
-Disk.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-Finishes.Laminate.CarbonFiber.jpg::CompressedTexture2D::9183102064934182744::1731790877::1731791387::1::::<><>::
-gas tank.jpg::CompressedTexture2D::9092730423409666153::1731790877::1731791387::1::::<><>::
-gas tunk.material::StandardMaterial3D::8149452086350882164::1731872321::0::1::::<><>::res://Assets/Models/Cars/Caterham/glossy metall.material<>uid://d2st7araa58yf::::res://Assets/Models/Cars/Caterham/gas tank.jpg
-glass.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-glossy metall.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-Headlights glass.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-Lamps.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-license plate.jpg::CompressedTexture2D::7821388273831523447::1731790877::1731791387::1::::<><>::
-license plate.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::res://Assets/Models/Cars/Caterham/license plate.jpg
-Logo.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-Material #12.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-Material #499.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-Material #500.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-Rear headlights reflect.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-Rear hlights red.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-Rear hlights white.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-red button.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-rubber-tire-screech-7-202580.mp3::AudioStreamMP3::843647329940708392::1731876082::1731876082::1::::<><>::
-speed.jpg::CompressedTexture2D::5114774247287364811::1731790877::1731791387::1::::<><>::
-speed.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::res://Assets/Models/Cars/Caterham/speed.png
-speed.png::CompressedTexture2D::7351112122127816403::1731790877::1731791387::1::::<><>::
-tire.jpg::CompressedTexture2D::4313899868640111019::1731790877::1731791387::1::::<><>::
-tire.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::res://Assets/Models/Cars/Caterham/tire.jpg
-Turning point orange.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-::res://Assets/Models/Cars/RaceFuture/::1731902467
-_defaultMat.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-carTire.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-paintBlue.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-paintYellow.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-plastic.material::StandardMaterial3D::7521002320173388227::1731871801::0::1::::<><>::
-raceFuture.dae::PackedScene::133412939712235807::1731790877::1731791388::1::::<><>::
-RaceFuture.tscn::PackedScene::6617837028531568997::1731902467::0::1::::<><>::res://Assets/Models/Cars/RaceFuture/paintBlue.material<>uid://dffh2rv6b4gl4::::res://Assets/Models/Cars/RaceFuture/plastic.material<>res://Assets/Models/Cars/RaceFuture/_defaultMat.material<>res://Assets/Models/Cars/RaceFuture/window.material<>res://Assets/Models/Cars/RaceFuture/carTire.material<>res://Assets/Models/Cars/RaceFuture/paintYellow.material<>res://Assets/Models/Cars/Caterham/Carbon.material<>res://Scripts/caterham.gd<>uid://6vncjd7axygh::::res://Scenes/Camera.tscn<>uid://clud52pajo6as::::res://Assets/Models/Cars/Caterham/car-sound-effect-126709.mp3
-window.material::StandardMaterial3D::-1::1731790877::0::1::::<><>::
-::res://Assets/Models/Tracks/::1731791388
-Curved-track-all-in-one.obj::Mesh::1063884522110999734::1731790877::1731791388::1::::<><>::
-Curved-track-base.obj::Mesh::3113416286552785680::1731790877::1731791388::1::::<><>::
-Curved-track-extern-barrier.obj::Mesh::150259075644607374::1731790877::1731791388::1::::<><>::
-Curved-track-intern-barrier.obj::Mesh::6428950307997847041::1731790877::1731791388::1::::<><>::
-Straight-track .obj::Mesh::8792802674089346491::1731790877::1731791388::1::::<><>::
-::res://Assets/Textures/::1731791388
-grid.png::CompressedTexture2D::158169560628575881::1731790877::1731791387::1::::<><>::
-hdrihaven_com_kiara_3_morning.jpg::CompressedTexture2D::2806248773911096435::1731790877::1731791388::1::::<><>::
-TexturesCom_MetalFloorsBare0063_2_seamless_S.jpg::CompressedTexture2D::3653700434105621621::1731790877::1731791388::1::::<><>::
-TexturesCom_Roads0069_1_seamless_S.jpg::CompressedTexture2D::3947114410688511329::1731790877::1731791387::1::::<><>::
-::res://Cars/::1731790245
-::res://Cars/Caterham/::1731790245
-Car.tscn::PackedScene::-1::1731790877::0::1::::<><>::res://Assets/Models/Cars/Caterham/caterham.gltf<>res://Scripts/caterham.gd
-::res://Scenes/::1731902467
-Camera.tscn::PackedScene::2219999456907463083::1731902467::0::1::::<><>::
-Curved-track.tscn::PackedScene::7864671289862149964::1731902467::0::1::::<><>::uid://ce10limyekf3::::res://Assets/Models/Tracks/Curved-track-extern-barrier.obj<>uid://cxuh4wmskn0kb::::res://Assets/Models/Tracks/Curved-track-intern-barrier.obj<>uid://bkmfrnev0cx1a::::res://Assets/Models/Tracks/Curved-track-base.obj<>res://Assets/Materials/Track-physicsmaterial.tres
-First-Level.tscn::PackedScene::1357791255507853056::1731902467::0::1::::<><>::uid://cp3cajvm01kws::::res://Scenes/Ground.tscn<>uid://clspqp4qwd2io::::res://Scenes/Straight-track.tscn<>uid://dkbx8tda3mpqq::::res://Scenes/Curved-track.tscn<>uid://c1jy2rghshda8::::res://Assets/Models/Cars/RaceFuture/RaceFuture.tscn<>uid://dqjjcoym2sng5::::res://Scenes/UI.tscn<>res://Scripts/finish_lap_area.gd<>res://Scripts/race_future.gd<>res://Scripts/first_level.gd
-Ground.tscn::PackedScene::5883598538786606278::1731902467::0::1::::<><>::uid://bsb46awrk35vt::::res://Assets/Textures/TexturesCom_MetalFloorsBare0063_2_seamless_S.jpg
-Second-Level.tscn::PackedScene::8497727091249672710::1731902467::0::1::::<><>::uid://cp3cajvm01kws::::res://Scenes/Ground.tscn<>res://Cars/Caterham/Car.tscn<>res://Scripts/camera.gd<>uid://dqjjcoym2sng5::::res://Scenes/UI.tscn<>uid://0whnjln4gg1i::::res://Scenes/Track.tscn
-Straight-track.tscn::PackedScene::5583017607977705410::1731902467::0::1::::<><>::uid://dxjkf703ja7op::::res://Assets/Models/Tracks/Straight-track .obj<>res://Assets/Materials/Track-physicsmaterial.tres
-Track.tscn::PackedScene::1800586126142911348::1731902467::0::1::::<><>::uid://bwianrx06rs3j::::res://Assets/Textures/TexturesCom_Roads0069_1_seamless_S.jpg
-UI.tscn::PackedScene::8301413746581304158::1731902467::0::1::::<><>::res://Scripts/reset.gd<>res://Scripts/change_level.gd
-::res://Scripts/::1731877884
-Camera.gd::GDScript::-1::1731790877::0::1::::<>Camera3D<>::
-caterham.gd::GDScript::-1::1731868143::0::1::::<>VehicleBody3D<>::
-change_level.gd::GDScript::-1::1731872480::0::1::::<>Button<>::
-finish_lap_area.gd::GDScript::-1::1731790877::0::1::::<>Area3D<>::
-first_level.gd::GDScript::-1::1731790877::0::1::::<>Node3D<>::
-game_main.gd::GDScript::-1::1731790877::0::1::::<>Node<>::
-race_future.gd::GDScript::-1::1731877884::0::1::::<>VehicleBody3D<>::
-reset.gd::GDScript::-1::1731790877::0::1::::<>Button<>::
+::res://::1731959799
+3D-Racing-Game.apple-touch-icon.png::CompressedTexture2D::8200874825059895408::1731959799::1731959831::1::::<><>::
+3D-Racing-Game.icon.png::CompressedTexture2D::6687367414189461478::1731959799::1731959831::1::::<><>::
+3D-Racing-Game.png::CompressedTexture2D::4315145766624643910::1731959799::1731959831::1::::<><>::
+default_env.tres::Environment::-1::1731878296::0::1::::<><>::res://Assets/Textures/hdrihaven_com_kiara_3_morning.jpg
+export_presets.cfg::TextFile::-1::1731959799::0::1::::<><>::
+icon.png::CompressedTexture2D::4281203198146694467::1731878296::1731899394::1::::<><>::
+::res://Assets/::1731878296
+::res://Assets/Materials/::1731878296
+Grid.tres::StandardMaterial3D::-1::1731878296::0::1::::<><>::res://Assets/Textures/grid.png
+Track-physicsmaterial.tres::PhysicsMaterial::-1::1731878296::0::1::::<><>::
+::res://Assets/Models/::1731878296
+::res://Assets/Models/Cars/::1731878296
+::res://Assets/Models/Cars/Caterham/::1731899394
+#.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+#_001.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+black.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+Car Paint.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+car-sound-effect-126709.mp3::AudioStreamMP3::5586443368596333390::1731878296::1731899394::1::::<><>::
+Carbon.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::res://Assets/Models/Cars/Caterham/Finishes.Laminate.CarbonFiber.jpg
+caterham.gltf::PackedScene::6490435658373485437::1731878296::1731899394::1::::<><>::uid://dcy60iq0jbgln::::res://Assets/Models/Cars/Caterham/speed.png
+Disk.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+Finishes.Laminate.CarbonFiber.jpg::CompressedTexture2D::9183102064934182744::1731878296::1731899394::1::::<><>::
+gas tank.jpg::CompressedTexture2D::9092730423409666153::1731878296::1731899394::1::::<><>::
+gas tunk.material::StandardMaterial3D::8149452086350882164::1731878296::0::1::::<><>::res://Assets/Models/Cars/Caterham/glossy metall.material<>uid://d2st7araa58yf::::res://Assets/Models/Cars/Caterham/gas tank.jpg
+glass.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+glossy metall.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+Headlights glass.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+Lamps.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+license plate.jpg::CompressedTexture2D::7821388273831523447::1731878296::1731899394::1::::<><>::
+license plate.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::res://Assets/Models/Cars/Caterham/license plate.jpg
+Logo.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+Material #12.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+Material #499.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+Material #500.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+Rear headlights reflect.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+Rear hlights red.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+Rear hlights white.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+red button.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+rubber-tire-screech-7-202580.mp3::AudioStreamMP3::843647329940708392::1731878296::1731899394::1::::<><>::
+speed.jpg::CompressedTexture2D::5114774247287364811::1731878296::1731899394::1::::<><>::
+speed.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::res://Assets/Models/Cars/Caterham/speed.png
+speed.png::CompressedTexture2D::7351112122127816403::1731878296::1731899394::1::::<><>::
+tire.jpg::CompressedTexture2D::4313899868640111019::1731878296::1731899394::1::::<><>::
+tire.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::res://Assets/Models/Cars/Caterham/tire.jpg
+Turning point orange.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+::res://Assets/Models/Cars/RaceFuture/::1731899394
+_defaultMat.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+carTire.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+paintBlue.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+paintYellow.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+plastic.material::StandardMaterial3D::7521002320173388227::1731878296::0::1::::<><>::
+raceFuture.dae::PackedScene::133412939712235807::1731878296::1731899394::1::::<><>::
+RaceFuture.tscn::PackedScene::6617837028531568997::1731878296::0::1::::<><>::res://Assets/Models/Cars/RaceFuture/paintBlue.material<>uid://dffh2rv6b4gl4::::res://Assets/Models/Cars/RaceFuture/plastic.material<>res://Assets/Models/Cars/RaceFuture/_defaultMat.material<>res://Assets/Models/Cars/RaceFuture/window.material<>res://Assets/Models/Cars/RaceFuture/carTire.material<>res://Assets/Models/Cars/RaceFuture/paintYellow.material<>res://Assets/Models/Cars/Caterham/Carbon.material<>res://Scripts/caterham.gd<>uid://6vncjd7axygh::::res://Scenes/Camera.tscn<>uid://clud52pajo6as::::res://Assets/Models/Cars/Caterham/car-sound-effect-126709.mp3
+window.material::StandardMaterial3D::-1::1731878296::0::1::::<><>::
+::res://Assets/Models/Tracks/::1731899394
+Curved-track-all-in-one.obj::Mesh::1063884522110999734::1731878296::1731899394::1::::<><>::
+Curved-track-base.obj::Mesh::3113416286552785680::1731878296::1731899394::1::::<><>::
+Curved-track-extern-barrier.obj::Mesh::150259075644607374::1731878296::1731899394::1::::<><>::
+Curved-track-intern-barrier.obj::Mesh::6428950307997847041::1731878296::1731899394::1::::<><>::
+Straight-track .obj::Mesh::8792802674089346491::1731878296::1731899394::1::::<><>::
+::res://Assets/Textures/::1731899394
+grid.png::CompressedTexture2D::158169560628575881::1731878296::1731899394::1::::<><>::
+hdrihaven_com_kiara_3_morning.jpg::CompressedTexture2D::2806248773911096435::1731878296::1731899394::1::::<><>::
+TexturesCom_MetalFloorsBare0063_2_seamless_S.jpg::CompressedTexture2D::3653700434105621621::1731878296::1731899394::1::::<><>::
+TexturesCom_Roads0069_1_seamless_S.jpg::CompressedTexture2D::3947114410688511329::1731878296::1731899394::1::::<><>::
+::res://Cars/::1731878296
+::res://Cars/Caterham/::1731878296
+Car.tscn::PackedScene::-1::1731878296::0::1::::<><>::res://Assets/Models/Cars/Caterham/caterham.gltf<>res://Scripts/caterham.gd
+::res://Scenes/::1731878296
+Camera.tscn::PackedScene::2219999456907463083::1731878296::0::1::::<><>::
+Curved-track.tscn::PackedScene::7864671289862149964::1731878296::0::1::::<><>::uid://ce10limyekf3::::res://Assets/Models/Tracks/Curved-track-extern-barrier.obj<>uid://cxuh4wmskn0kb::::res://Assets/Models/Tracks/Curved-track-intern-barrier.obj<>uid://bkmfrnev0cx1a::::res://Assets/Models/Tracks/Curved-track-base.obj<>res://Assets/Materials/Track-physicsmaterial.tres
+First-Level.tscn::PackedScene::1357791255507853056::1731878296::0::1::::<><>::uid://cp3cajvm01kws::::res://Scenes/Ground.tscn<>uid://clspqp4qwd2io::::res://Scenes/Straight-track.tscn<>uid://dkbx8tda3mpqq::::res://Scenes/Curved-track.tscn<>uid://c1jy2rghshda8::::res://Assets/Models/Cars/RaceFuture/RaceFuture.tscn<>uid://dqjjcoym2sng5::::res://Scenes/UI.tscn<>res://Scripts/finish_lap_area.gd<>res://Scripts/race_future.gd<>res://Scripts/first_level.gd
+Ground.tscn::PackedScene::5883598538786606278::1731878296::0::1::::<><>::uid://bsb46awrk35vt::::res://Assets/Textures/TexturesCom_MetalFloorsBare0063_2_seamless_S.jpg
+Second-Level.tscn::PackedScene::8497727091249672710::1731878296::0::1::::<><>::uid://cp3cajvm01kws::::res://Scenes/Ground.tscn<>res://Cars/Caterham/Car.tscn<>res://Scripts/camera.gd<>uid://dqjjcoym2sng5::::res://Scenes/UI.tscn<>uid://0whnjln4gg1i::::res://Scenes/Track.tscn
+Straight-track.tscn::PackedScene::5583017607977705410::1731878296::0::1::::<><>::uid://dxjkf703ja7op::::res://Assets/Models/Tracks/Straight-track .obj<>res://Assets/Materials/Track-physicsmaterial.tres
+Track.tscn::PackedScene::1800586126142911348::1731878296::0::1::::<><>::uid://bwianrx06rs3j::::res://Assets/Textures/TexturesCom_Roads0069_1_seamless_S.jpg
+UI.tscn::PackedScene::8301413746581304158::1731878296::0::1::::<><>::res://Scripts/reset.gd<>res://Scripts/change_level.gd
+::res://Scripts/::1731878296
+Camera.gd::GDScript::-1::1731878296::0::1::::<>Camera3D<>::
+caterham.gd::GDScript::-1::1731878296::0::1::::<>VehicleBody3D<>::
+change_level.gd::GDScript::-1::1731878296::0::1::::<>Button<>::
+finish_lap_area.gd::GDScript::-1::1731878296::0::1::::<>Area3D<>::
+first_level.gd::GDScript::-1::1731878296::0::1::::<>Node3D<>::
+game_main.gd::GDScript::-1::1731878296::0::1::::<>Node<>::
+race_future.gd::GDScript::-1::1731878296::0::1::::<>VehicleBody3D<>::
+reset.gd::GDScript::-1::1731878296::0::1::::<>Button<>::
