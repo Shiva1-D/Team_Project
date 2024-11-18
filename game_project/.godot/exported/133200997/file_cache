@@ -1,0 +1,13 @@
+res://Assets/Materials/Grid.tres::9ed986b302dfea5bd8ba77c35c2063eb::1731790877::res://.godot/exported/133200997/export-ce893d06f6ce0a5489e9a31a71ffa4c8-Grid.res
+res://Assets/Materials/Track-physicsmaterial.tres::755c6770fb5fe1c904113ab1a16fd586::1731790877::res://.godot/exported/133200997/export-14ef331cd9f66faa99c948a0bd98d91e-Track-physicsmaterial.res
+res://Assets/Models/Cars/RaceFuture/RaceFuture.tscn::6cd5f0651a8633ecd7072ca4b265de4c::1731902467::res://.godot/exported/133200997/export-7362ef7f8659b56f60b2ef0b971c47c1-RaceFuture.scn
+res://Cars/Caterham/Car.tscn::27a68352989ee2a8a18ea9f3ee2d714a::1731790877::res://.godot/exported/133200997/export-90235466b8bcfe58052d89ec30a2c17f-Car.scn
+res://Scenes/Camera.tscn::64b5234f5fcb2a6180436e78b90fcebd::1731902467::res://.godot/exported/133200997/export-1bf530f38ae93399c20da63f258369ca-Camera.scn
+res://Scenes/Curved-track.tscn::59bdd89ed93b2685cafa440e8f2d3d41::1731902467::res://.godot/exported/133200997/export-c97b25d75103de66d727b23a5534b368-Curved-track.scn
+res://Scenes/First-Level.tscn::e4637d56eb80ef1d91dc27f2a4f42f15::1731902467::res://.godot/exported/133200997/export-ca8f715757f47c18a499fa3c53a0ef27-First-Level.scn
+res://Scenes/Ground.tscn::5b02163550936323ffb9fd1c6fd72ecd::1731902467::res://.godot/exported/133200997/export-6c27e91b6da0ea19e99f6c3cecf5ee19-Ground.scn
+res://Scenes/Second-Level.tscn::8e3a263c4cd0bdcbddbd95eb43d4f4eb::1731902467::res://.godot/exported/133200997/export-034812ec65881e903fd708fb5435d4bd-Second-Level.scn
+res://Scenes/Straight-track.tscn::98ac3ff928bb08bfa6344dd325e7eff8::1731902467::res://.godot/exported/133200997/export-7b99474ae4cea6de5e9cb263ef9ed9c2-Straight-track.scn
+res://Scenes/Track.tscn::4733bf7cce84a9d81e517e1ce9fa7e80::1731902467::res://.godot/exported/133200997/export-c9a55cf0aad4aea12700e77a14a0ce70-Track.scn
+res://Scenes/UI.tscn::c76b0ce6c848603a94e331b8d3a13d09::1731902467::res://.godot/exported/133200997/export-4f62ab20f4ccf50badf9090e15390996-UI.scn
+res://default_env.tres::0d1c2a2b544665342892878b7da91002::1731790877::res://.godot/exported/133200997/export-7cf3fd67ad9f55210191d77b582b8209-default_env.res
