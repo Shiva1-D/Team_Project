@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqjjcoym2sng5"]
+
+[ext_resource type="Script" path="res://Scripts/reset.gd" id="1"]
+[ext_resource type="Script" path="res://Scripts/change_level.gd" id="2"]
+
+[node name="UI" type="Node"]
+
+[node name="ResetButton" type="Button" parent="."]
+text = "Reset Level"
+script = ExtResource("1")
+
+[node name="ChangeLevelButton" type="Button" parent="."]
+text = "Change Circuit"
+script = ExtResource("2")
+
+[connection signal="pressed" from="ResetButton" to="ResetButton" method="_on_Button_pressed"]
+[connection signal="pressed" from="ChangeLevelButton" to="ChangeLevelButton" method="_on_ChangeLevelButton_pressed"]

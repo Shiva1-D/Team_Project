@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://6vncjd7axygh"]
+
+[node name="Camera" type="Node3D" groups=["reference"]]
+transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 0, 0, 0)
+
+[node name="camera" type="Camera3D" parent="." groups=["camera"]]
+transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 0, 0, 0)
+current = true
