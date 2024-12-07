@@ -1,7 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731960578
+::res://::1731960685
 default_env.tres::Environment::-1::1731900209::0::1::::<><>::res://Assets/Textures/hdrihaven_com_kiara_3_morning.jpg
+export_presets.cfg::TextFile::-1::1731960685::0::1::::<><>::
 icon.png::CompressedTexture2D::4281203198146694467::1731900209::1731960578::1::::<><>::
+index.apple-touch-icon.png::CompressedTexture2D::2493228792138703553::1731960684::1731960739::1::::<><>::
+index.icon.png::CompressedTexture2D::5823441458910876133::1731960684::1731960739::1::::<><>::
+index.png::CompressedTexture2D::8292697729473842370::1731960684::1731960739::1::::<><>::
 README.md::TextFile::-1::1730874385::0::1::::<><>::
 team.txt::TextFile::-1::1730874385::0::1::::<><>::
 ::res://Assets/::1731900209
@@ -10,7 +14,7 @@ Grid.tres::StandardMaterial3D::-1::1731900209::0::1::::<><>::res://Assets/Textur
 Track-physicsmaterial.tres::PhysicsMaterial::-1::1731900209::0::1::::<><>::
 ::res://Assets/Models/::1731900209
 ::res://Assets/Models/Cars/::1731900209
-::res://Assets/Models/Cars/Caterham/::1731900209
+::res://Assets/Models/Cars/Caterham/::1731960579
 #.material::StandardMaterial3D::-1::1731900209::0::1::::<><>::
 #_001.material::StandardMaterial3D::-1::1731900209::0::1::::<><>::
 black.material::StandardMaterial3D::-1::1731900209::0::1::::<><>::
@@ -43,7 +47,7 @@ speed.png::CompressedTexture2D::7351112122127816403::1731900209::1731960578::1::
 tire.jpg::CompressedTexture2D::4313899868640111019::1731900209::1731960578::1::::<><>::
 tire.material::StandardMaterial3D::-1::1731900209::0::1::::<><>::res://Assets/Models/Cars/Caterham/tire.jpg
 Turning point orange.material::StandardMaterial3D::-1::1731900209::0::1::::<><>::
-::res://Assets/Models/Cars/RaceFuture/::1731900209
+::res://Assets/Models/Cars/RaceFuture/::1731960579
 _defaultMat.material::StandardMaterial3D::-1::1731900209::0::1::::<><>::
 carTire.material::StandardMaterial3D::-1::1731900209::0::1::::<><>::
 paintBlue.material::StandardMaterial3D::-1::1731900209::0::1::::<><>::
@@ -52,13 +56,13 @@ plastic.material::StandardMaterial3D::7521002320173388227::1731900209::0::1::::<
 raceFuture.dae::PackedScene::133412939712235807::1731900209::1731960579::1::::<><>::
 RaceFuture.tscn::PackedScene::6617837028531568997::1731900209::0::1::::<><>::res://Assets/Models/Cars/RaceFuture/paintBlue.material<>uid://dffh2rv6b4gl4::::res://Assets/Models/Cars/RaceFuture/plastic.material<>res://Assets/Models/Cars/RaceFuture/_defaultMat.material<>res://Assets/Models/Cars/RaceFuture/window.material<>res://Assets/Models/Cars/RaceFuture/carTire.material<>res://Assets/Models/Cars/RaceFuture/paintYellow.material<>res://Assets/Models/Cars/Caterham/Carbon.material<>res://Scripts/caterham.gd<>uid://6vncjd7axygh::::res://Scenes/Camera.tscn<>uid://clud52pajo6as::::res://Assets/Models/Cars/Caterham/car-sound-effect-126709.mp3
 window.material::StandardMaterial3D::-1::1731900209::0::1::::<><>::
-::res://Assets/Models/Tracks/::1731900209
+::res://Assets/Models/Tracks/::1731960579
 Curved-track-all-in-one.obj::Mesh::1063884522110999734::1731900209::1731960579::1::::<><>::
 Curved-track-base.obj::Mesh::3113416286552785680::1731900209::1731960579::1::::<><>::
 Curved-track-extern-barrier.obj::Mesh::150259075644607374::1731900209::1731960579::1::::<><>::
 Curved-track-intern-barrier.obj::Mesh::6428950307997847041::1731900209::1731960579::1::::<><>::
 Straight-track .obj::Mesh::8792802674089346491::1731900209::1731960579::1::::<><>::
-::res://Assets/Textures/::1731900209
+::res://Assets/Textures/::1731960579
 grid.png::CompressedTexture2D::158169560628575881::1731900209::1731960578::1::::<><>::
 hdrihaven_com_kiara_3_morning.jpg::CompressedTexture2D::2806248773911096435::1731900209::1731960579::1::::<><>::
 TexturesCom_MetalFloorsBare0063_2_seamless_S.jpg::CompressedTexture2D::3653700434105621621::1731900209::1731960578::1::::<><>::
@@ -66,10 +70,10 @@ TexturesCom_Roads0069_1_seamless_S.jpg::CompressedTexture2D::3947114410688511329
 ::res://Cars/::1731900209
 ::res://Cars/Caterham/::1731900209
 Car.tscn::PackedScene::-1::1731900209::0::1::::<><>::res://Assets/Models/Cars/Caterham/caterham.gltf<>res://Scripts/caterham.gd
-::res://Scenes/::1731900209
+::res://Scenes/::1731960614
 Camera.tscn::PackedScene::2219999456907463083::1731900209::0::1::::<><>::
 Curved-track.tscn::PackedScene::7864671289862149964::1731900209::0::1::::<><>::uid://ce10limyekf3::::res://Assets/Models/Tracks/Curved-track-extern-barrier.obj<>uid://cxuh4wmskn0kb::::res://Assets/Models/Tracks/Curved-track-intern-barrier.obj<>uid://bkmfrnev0cx1a::::res://Assets/Models/Tracks/Curved-track-base.obj<>res://Assets/Materials/Track-physicsmaterial.tres
-First-Level.tscn::PackedScene::1357791255507853056::1731900209::0::1::::<><>::uid://cp3cajvm01kws::::res://Scenes/Ground.tscn<>uid://clspqp4qwd2io::::res://Scenes/Straight-track.tscn<>uid://dkbx8tda3mpqq::::res://Scenes/Curved-track.tscn<>uid://c1jy2rghshda8::::res://Assets/Models/Cars/RaceFuture/RaceFuture.tscn<>uid://dqjjcoym2sng5::::res://Scenes/UI.tscn<>res://Scripts/finish_lap_area.gd<>res://Scripts/race_future.gd<>res://Scripts/first_level.gd
+First-Level.tscn::PackedScene::1357791255507853056::1731960614::0::1::::<><>::uid://cp3cajvm01kws::::res://Scenes/Ground.tscn<>uid://clspqp4qwd2io::::res://Scenes/Straight-track.tscn<>uid://dkbx8tda3mpqq::::res://Scenes/Curved-track.tscn<>uid://c1jy2rghshda8::::res://Assets/Models/Cars/RaceFuture/RaceFuture.tscn<>uid://dqjjcoym2sng5::::res://Scenes/UI.tscn<>res://Scripts/finish_lap_area.gd<>res://Scripts/race_future.gd<>res://Scripts/first_level.gd
 Ground.tscn::PackedScene::5883598538786606278::1731900209::0::1::::<><>::uid://bsb46awrk35vt::::res://Assets/Textures/TexturesCom_MetalFloorsBare0063_2_seamless_S.jpg
 Second-Level.tscn::PackedScene::8497727091249672710::1731900209::0::1::::<><>::uid://cp3cajvm01kws::::res://Scenes/Ground.tscn<>res://Cars/Caterham/Car.tscn<>res://Scripts/camera.gd<>uid://dqjjcoym2sng5::::res://Scenes/UI.tscn<>uid://0whnjln4gg1i::::res://Scenes/Track.tscn
 Straight-track.tscn::PackedScene::5583017607977705410::1731900209::0::1::::<><>::uid://dxjkf703ja7op::::res://Assets/Models/Tracks/Straight-track .obj<>res://Assets/Materials/Track-physicsmaterial.tres
