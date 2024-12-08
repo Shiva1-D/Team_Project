@@ -1,0 +1,75 @@
+[gd_scene load_steps=4 format=3 uid="uid://teyx8tp1jq1g"]
+
+[ext_resource type="PackedScene" uid="uid://cp3cajvm01kws" path="res://Scenes/Ground.tscn" id="2_2h1bm"]
+[ext_resource type="PackedScene" uid="uid://cpskgv2pgebl4" path="res://Cars/Caterham/Car.tscn" id="2_tj243"]
+
+[sub_resource type="Curve3D" id="Curve3D_8lo0q"]
+_data = {
+"points": PackedVector3Array(-0.543056, -0.00283718, 3.63639, 0.543056, 0.00283718, -3.63639, -6.97205, 0.00706542, 6.81363, 0.349562, -0.000767708, 1.00318, -0.349562, 0.000767708, -1.00318, -7.2344, 0.128448, -3.86095, -1.0481, 0.000423431, -0.0309463, 1.0481, -0.000423431, 0.0309463, -4.6885, 0.00374222, -6.91998, -2.25372, -0.000196457, 0.999058, 2.25372, 0.000196457, -0.999058, -3.04501, 0.00166512, -8.73051, -0.63161, -0.00121021, 1.79483, 0.63161, 0.00121021, -1.79483, -5.49414, 1.2168, -12.1353, -0.455429, 0.000786066, -1.68877, 0.455429, -0.000786066, 1.68877, -1.93145, 0.189918, -13.1053, -1.8634, 0.000950575, 0.971766, 1.8634, -0.000950575, -0.971766, 2.0128, 0.595228, -11.2485, 1.35364, -0.00139236, 0.912382, -1.35364, 0.00139236, -0.912382, 3.27222, -0.0025959, -7.97628, -0.0887558, -0.00420952, -1.66922, 0.0887558, 0.00420952, 1.66922, 0.43559, 0.020648, -7.83367, 0.0119784, -0.00142717, -0.497838, -0.0119784, 0.00142717, 0.497838, -1.15415, 0.408206, -5.28469, -0.624446, 0.00146389, -0.461327, 0.624446, -0.00146389, 0.461327, -0.348527, -0.00115585, -3.04598, -1.45867, 0.00460052, -0.637349, 1.45867, -0.00460052, 0.637349, 3.72994, 0.0718441, -3.64698, 0.610536, -0.00495255, -0.833545, -0.610536, 0.00495255, 0.833545, 4.46932, 1.02728, 1.29497, 1.10383, -0.00486445, -0.0217037, -1.10383, 0.00486445, 0.0217037, 1.71549, 0.541071, 3.70322, 0.340324, 0.000190735, 0.607859, -0.340324, -0.000190735, -0.607859, -0.80618, 0.492069, 2.30113, 0, 0, 0, 0, 0, 0, -2.11882, 0.310813, -0.446554, 0.391528, -0.000721931, 0.355642, -0.391528, 0.000721931, -0.355642, -2.97289, 0.499513, -3.28658, 0.345657, -0.00448668, -1.08211, -0.345657, 0.00448668, 1.08211, -4.41614, 0.54998, -3.05644, 0, 0, 0, 0, 0, 0, -4.56688, 0.00361443, 3.18006, 0, 0, 0, 0, 0, 0, -4.47811, 0.00354004, 5.60045, 0.775489, -0.00587654, -0.882667, -0.775489, 0.00587654, 0.882667, -4.71389, 0.00372505, 7.32212, 0.711174, -0.000214577, 0.15066, -0.711174, 0.000214577, -0.15066, -6.43739, 0.00509644, 8.11028, 0, 0, 0, 0, 0, 0, -6.90065, 0.00548553, 6.89933, -0.543056, -0.00283718, 3.63639, 0.543056, 0.00283718, -3.63639, -6.97205, 0.00706542, 6.81363),
+"tilts": PackedFloat32Array(0, -0.446049, -0.685318, -0.298284, 0.404283, 0.576738, 0.575138, 1.15639, 0.407523, 0.65928, 0.328606, 0.649546, 0.592519, 0.208443, 0.49206, 0.214701, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 24
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Car" type="Node3D" parent="."]
+transform = Transform3D(0.883578, 0, 0.468285, 0, 1, 0, -0.468285, 0, 0.883578, -12.6024, 0.524355, 0)
+
+[node name="Car" parent="Car" instance=ExtResource("2_tj243")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.23984, 2.61015, 2.33937)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+
+[node name="Path3D" type="Path3D" parent="."]
+transform = Transform3D(6, 0, 0, 0, 6, 0, 0, 0, 6, 0, 1.59167, 0)
+curve = SubResource("Curve3D_8lo0q")
+
+[node name="floor" type="CSGPolygon3D" parent="."]
+use_collision = true
+polygon = PackedVector2Array(0, 0, 0.000445804, 0.00984446, 0.8, 0, 0.7, 0)
+mode = 2
+path_node = NodePath("../Path3D")
+path_interval_type = 0
+path_interval = 0.2
+path_simplify_angle = 0.0
+path_rotation = 2
+path_local = false
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = true
+
+[node name="outerWall" type="CSGPolygon3D" parent="."]
+use_collision = true
+polygon = PackedVector2Array(0.002, 0.002, 0, 0.1, 0.1, 0.1, 0.1, 0)
+mode = 2
+path_node = NodePath("../Path3D")
+path_interval_type = 0
+path_interval = 0.1
+path_simplify_angle = 0.0
+path_rotation = 2
+path_local = false
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = false
+
+[node name="CSGPolygon3D" type="CSGPolygon3D" parent="."]
+use_collision = true
+polygon = PackedVector2Array(0.002, 0.002, 0, 0.1, 0.1, 0.1, 0.1, 0)
+mode = 2
+path_node = NodePath("../Path3D")
+path_interval_type = 0
+path_interval = 0.1
+path_simplify_angle = 0.0
+path_rotation = 2
+path_local = false
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = false
+
+[node name="Ground" parent="." instance=ExtResource("2_2h1bm")]
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.843401, 0.537285, 0, -0.537285, -0.843401, 0, 7.81737, 0)
+shadow_enabled = true
+
+[node name="Node3D" type="Node3D" parent="."]

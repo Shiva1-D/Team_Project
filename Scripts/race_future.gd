@@ -64,16 +64,10 @@ func move_car(delta):
 
 	# Use lerp to gradually move steering towards the target direction
 	steering = lerp(steering, direc_target, VEL_DIREC * delta)
-	if fwd_vel == 0:
-		engine_audio.pitch_scale = 1.0 +(fwd_vel/max_vel) *0.5
-		if not engine_audio.playing:
-			engine_audio.play()
-	else:
-		engine_audio.stop
-		
-	if fwd_vel > 0:
-		engine_audio.pitch_scale = 1.0 + (fwd_vel / max_vel) * 0.5
-		if not engine_audio.playing:
-			engine_audio.play()
-	else:
-		engine_audio.stop()
+#
+	#if fwd_vel > 0:
+		#engine_audio.pitch_scale = 1.0 + (fwd_vel / max_vel) * 0.5
+		#if not engine_audio.playing:
+			#engine_audio.play()
+	#else:
+		#engine_audio.stop()

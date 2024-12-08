@@ -1,0 +1,124 @@
+[gd_scene load_steps=7 format=3 uid="uid://dj8o3ydfaxdvk"]
+
+[ext_resource type="PackedScene" uid="uid://cpskgv2pgebl4" path="res://Cars/Caterham/Car.tscn" id="1_quh2l"]
+[ext_resource type="AudioStream" uid="uid://bfx8io4ccpgf0" path="res://Assets/Models/Cars/Caterham/awakening.mp3" id="2_10tud"]
+[ext_resource type="Script" path="res://Scripts/camera.gd" id="2_peq51"]
+[ext_resource type="PackedScene" uid="uid://cp3cajvm01kws" path="res://Scenes/Ground.tscn" id="3_3itox"]
+[ext_resource type="PackedScene" uid="uid://dqjjcoym2sng5" path="res://Scenes/UI.tscn" id="4_1aakc"]
+
+[sub_resource type="Curve3D" id="Curve3D_5n1tf"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -7.6002, 0.206154, 15.5049, 0, 0, 0, 0, 0, 0, -3.67274, 0.099659, 7.9966, 0, 0, 0, 0, 0, 0, -7.82071, 0.211042, 0.219413, 0, 0, 0, 0, 0, 0, -3.84824, 0.103569, -3.88402, 0, 0, 0, 0, 0, 0, -0.129151, 0.00293541, -7.95056, 0, 0, 0, 0, 0, 0, -1.33937, 0.0205212, -9.29043, 0, 0, 0, 0, 0, 0, -2.66689, 0.0713291, -7.74882, 0, 0, 0, 0, 0, 0, -6.82442, 0.183689, -6.59304, 0, 0, 0, 0, 0, 0, -7.94812, 0.21398, -7.06103, 0, 0, 0, 0, 0, 0, -7.80609, 0.210072, -8.34797, 0, 0, 0, 0, 0, 0, -3.21171, 0.085989, -9.78997, 0, 0, 0, 0, 0, 0, -2.85233, 0.0762177, -10.8414, 0, 0, 0, 0, 0, 0, -3.36225, 0.0898972, -11.9992, 0, 0, 0, 0, 0, 0, -2.45842, 0.0654716, -12.5448, 0, 0, 0, 0, 0, 0, -1.44335, 0.0381165, -12.0766, 0, 0, 0, 0, 0, 0, -0.354915, 0.00880623, -11.2462, 0, 0, 0, 0, 0, 0, 0.813006, -0.00291634, -10.1607, 0, 0, 0, 0, 0, 0, 3.20183, -0.0869408, -8.50401, 0, 0, 0, 0, 0, 0, 7.5812, -0.185619, -10.0463, 0, 0, 0, 0, 0, 0, 8.0841, -0.19441, -6.52054, 0, 0, 0, 0, 0, 0, 3.02957, -0.0820503, -4.66244, 0, 0, 0, 0, 0, 0, 0.458574, 2.09808e-05, -5.48771, 0, 0, 0, 0, 0, 0, -4.49009, 0.121174, -0.0427441, 0, 0, 0, 0, 0, 0, -2.37593, 0.0645046, 5.38521, 0, 0, 0, 0, 0, 0, 0.229177, -0.0058403, 4.61781, 0, 0, 0, 0, 0, 0, 4.32971, -0.116243, 5.76052, 0, 0, 0, 0, 0, 0, 7.26098, -0.195383, 6.1142, 0, 0, 0, 0, 0, 0, 8.49252, -0.203199, 8.2574, 0, 0, 0, 0, 0, 0, 7.08489, -0.190496, 9.70139, 0, 0, 0, 0, 0, 0, 4.33261, -0.116241, 9.17128, 0, 0, 0, 0, 0, 0, -1.57175, 0.0430145, 9.53865, 0, 0, 0, 0, 0, 0, -4.90337, 0.149511, 16.4584, 0, 0, 0, 0, 0, 0, -7.6002, 0.206154, 15.5049),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0.0117287, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.211086, 0, 0.0910152, 0, 0, 0, 0.387787, 0, 0, 0, 0, 0.0334073, 0, 0, 0, 0)
+}
+point_count = 33
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Car" type="Node3D" parent="."]
+transform = Transform3D(0.881605, 0.0667963, 0.467239, -0.0590198, 0.997767, -0.0312797, -0.468285, -3.68206e-09, 0.883578, -12.6024, -1.10937, 9.4304)
+
+[node name="Car" parent="Car" instance=ExtResource("1_quh2l")]
+transform = Transform3D(0.321628, -0.0104448, 0.946808, -0.0697303, 0.996962, 0.0346853, -0.944295, -0.077177, 0.319923, -18.5342, 1.62495, 40.1016)
+
+[node name="BackGroundMusic" type="AudioStreamPlayer3D" parent="Car"]
+stream = ExtResource("2_10tud")
+autoplay = true
+
+[node name="Path3D" type="Path3D" parent="."]
+transform = Transform3D(6, 0, 0, 0, 6, 0, 0, 0, 6, 0, 0, 0)
+curve = SubResource("Curve3D_5n1tf")
+
+[node name="floor" type="CSGPolygon3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.159838, 0)
+use_collision = true
+polygon = PackedVector2Array(0, 0, 0.000445804, 0.00984446, 0.9, 0, 0.7, 0)
+mode = 2
+path_node = NodePath("../Path3D")
+path_interval_type = 0
+path_interval = 0.2
+path_simplify_angle = 0.0
+path_rotation = 2
+path_local = false
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = true
+
+[node name="Camera" type="Camera3D" parent="."]
+transform = Transform3D(-1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 0.42428, 4.33854, -8.96471)
+current = true
+script = ExtResource("2_peq51")
+follow_this_path = NodePath("../Car/Car")
+
+[node name="Ground" parent="." instance=ExtResource("3_3itox")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.13778, 0)
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.843401, 0.537285, 0, -0.537285, -0.843401, 0, 7.81737, 0)
+shadow_enabled = true
+
+[node name="outerWall" type="CSGPolygon3D" parent="."]
+use_collision = true
+polygon = PackedVector2Array(0.002, 0.002, 0, 0.1, 0.1, 0.1, 0.1, 0)
+mode = 2
+path_node = NodePath("../Path3D")
+path_interval_type = 0
+path_interval = 0.1
+path_simplify_angle = 0.0
+path_rotation = 2
+path_local = false
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = false
+
+[node name="UI" parent="." instance=ExtResource("4_1aakc")]
+
+[node name="GUI" type="CanvasLayer" parent="."]
+
+[node name="TimeCounter" type="Label" parent="GUI" groups=["time"]]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+grow_vertical = 0
+text = "00:00"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LapCounter" type="Label" parent="GUI" groups=["laps"]]
+offset_left = 198.0
+offset_top = 4.0
+offset_right = 255.0
+offset_bottom = 27.0
+text = "Lap 0/3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SpeedMeter" type="Label" parent="GUI" groups=["velocity"]]
+offset_left = 500.0
+offset_top = 100.0
+offset_right = 555.0
+offset_bottom = 123.0
+text = "0 km/h"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="FinishWindow" type="Panel" parent="GUI" groups=["panel"]]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+
+[node name="Content" type="Label" parent="GUI/FinishWindow"]
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+text = "You completed
+the first circuit.
+Press the restart
+button to continue."
+horizontal_alignment = 1
+vertical_alignment = 1
