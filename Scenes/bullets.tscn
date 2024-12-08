@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://btiqc5c6u4nfc"]
+
+[ext_resource type="Script" path="res://Scenes/bullets.gd" id="1_xdao7"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_s6s34"]
+
+[node name="bullet" type="RigidBody3D"]
+script = ExtResource("1_xdao7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CylinderShape3D_s6s34")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]

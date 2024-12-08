@@ -35,3 +35,7 @@ func _physics_process(delta):
 	steer_angle = lerp(steer_angle, steer_target, steer_speed * delta)
 
 	steering = steer_angle
+	
+	
+	if Input.is_action_just_pressed("fire"):
+		$Gun.shoot

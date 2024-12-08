@@ -25,6 +25,7 @@ shadow_enabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 
 [node name="RaceFuture" parent="Car" groups=["player"] instance=ExtResource("4")]
+transform = Transform3D(-1.62921e-07, 0, -1, 0, 1, 0, 1, 0, -1.62921e-07, 2.70879, 0.618946, 80.8076)
 script = ExtResource("7")
 engine_force_value = 280.0
 brake_force_value = 5.0
@@ -45,40 +46,40 @@ transform = Transform3D(-1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 15, 2,
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 2, -1)
 
 [node name="NewTrackCurved11" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -22, 2, 16)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -4.29121, 2.61895, 96.8076)
 
 [node name="NewTrackCurved12" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -18, 2, 18)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.291206, 2.61895, 98.8076)
 
 [node name="NewTrackCurved10" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7, 2, 19)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.7088, 2.61895, 99.8076)
 
 [node name="NewTrackCurved9" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, -25, 2, -9)
+transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, -7.29121, 2.61895, 71.8076)
 
 [node name="NewTrackCurved8" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -15, 2, -21)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 2.70879, 2.61895, 59.8076)
 
 [node name="NewTrackCurved7" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17, 2, -17)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.708794, 2.61895, 63.8076)
 
 [node name="NewTrackCurved6" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -14, 2, -24)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.70879, 2.61895, 56.8076)
 
 [node name="NewTrackCurved5" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -10, 2, 26)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 7.70879, 2.61895, 106.808)
 
 [node name="NewTrackCurved4" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -14, 2, 4)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.70879, 2.61895, 84.8076)
 
 [node name="NewTrackCurved3" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7, 2, -9)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.7088, 2.61895, 71.8076)
 
 [node name="NewTrackCurved2" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17, 2, 3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.708794, 2.61895, 83.8076)
 
 [node name="NewTrackCurved1" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -10, 2, 6)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 7.70879, 2.61895, 86.8076)
 
 [node name="Curved-track6" parent="Circuit/Curved-track" instance=ExtResource("3")]
 transform = Transform3D(-1.62921e-07, 0, -1, 0, 1, 0, 1, 0, -1.62921e-07, 8, 2, -8)
@@ -89,28 +90,28 @@ transform = Transform3D(-1.62921e-07, 0, -1, 0, 1, 0, 1, 0, -1.62921e-07, 8, 2, 
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00236893, 0, 0.0153046)
 
 [node name="NewTrackStraight1" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -10)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.70879, 0.618946, 70.8076)
 
 [node name="NewTrackStraight2" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -16)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.70879, 0.618946, 64.8076)
 
 [node name="NewTrackStraight3" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 12)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.70879, 0.618946, 92.8076)
 
 [node name="NewTrackStraight4" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 18)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.70879, 0.618946, 98.8076)
 
 [node name="NewTrackStraight5" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0, 10)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.29121, 0.618946, 90.8076)
 
 [node name="NewTrackStraight6" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0, -2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.29121, 0.618946, 78.8076)
 
 [node name="NewTrackStraight7" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0, 4)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.29121, 0.618946, 84.8076)
 
 [node name="NewTrackStraight8" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0, -8)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.29121, 0.618946, 72.8076)
 
 [node name="Straight-track 2" parent="Circuit/Straight-track" instance=ExtResource("2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)

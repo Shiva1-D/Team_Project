@@ -1,0 +1,9 @@
+MeshInstance3D
+CollisionShape3D
+RigidBody3D
+Node3D
+ParallaxBackground
+Area3D
+Path3D
+CSGPolygon3D
+WorldEnvironment
