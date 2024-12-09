@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://dj8o3ydfaxdvk"]
+[gd_scene load_steps=9 format=3 uid="uid://dj8o3ydfaxdvk"]
 
-[ext_resource type="PackedScene" uid="uid://cpskgv2pgebl4" path="res://Cars/Caterham/Car.tscn" id="1_quh2l"]
+[ext_resource type="Script" path="res://Scenes/fourth.gd" id="1_g7mem"]
+[ext_resource type="PackedScene" uid="uid://cvp0mar5l5m8i" path="res://Cars/Caterham/Car.tscn" id="1_quh2l"]
 [ext_resource type="AudioStream" uid="uid://bfx8io4ccpgf0" path="res://Assets/Models/Cars/Caterham/awakening.mp3" id="2_10tud"]
 [ext_resource type="Script" path="res://Scripts/camera.gd" id="2_peq51"]
 [ext_resource type="PackedScene" uid="uid://cp3cajvm01kws" path="res://Scenes/Ground.tscn" id="3_3itox"]
@@ -13,7 +14,12 @@ _data = {
 }
 point_count = 33
 
+[sub_resource type="SystemFont" id="SystemFont_fyqwn"]
+font_names = PackedStringArray("Impact")
+subpixel_positioning = 0
+
 [node name="Node3D" type="Node3D"]
+script = ExtResource("1_g7mem")
 
 [node name="Car" type="Node3D" parent="."]
 transform = Transform3D(0.881605, 0.0667963, 0.467239, -0.0590198, 0.997767, -0.0312797, -0.468285, -3.68206e-09, 0.883578, -12.6024, -1.10937, 9.4304)
@@ -122,3 +128,63 @@ Press the restart
 button to continue."
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="ramp" type="CSGPolygon3D" parent="."]
+transform = Transform3D(0.119078, 0.0141009, -0.992785, -0.112128, 0.993694, 0.000664784, 0.986533, 0.111239, 0.119909, -14.1691, -0.552289, 0.175686)
+use_collision = true
+polygon = PackedVector2Array(0, 0, -6.297, 3.43, 5.43469, -0.0118203, 1, -1)
+depth = 5.62
+
+[node name="ramp2" type="CSGPolygon3D" parent="."]
+transform = Transform3D(-0.973926, -0.0507324, -0.221121, -0.0493585, 0.998712, -0.0117377, 0.221431, -0.000517502, -0.975176, -50.9388, -0.90676, 0)
+use_collision = true
+polygon = PackedVector2Array(0, 0, -6.297, 3.43, 5.43469, -0.0118203, 1, -1)
+depth = 5.62
+
+[node name="ramp3" type="CSGPolygon3D" parent="."]
+transform = Transform3D(0.63631, -0.0412671, 0.770329, 0.0415724, 0.998951, 0.0191748, -0.770312, 0.0198233, 0.637359, 15.3398, -1.35601, -62.5194)
+use_collision = true
+polygon = PackedVector2Array(0, 0, -6.297, 3.43, 5.43469, -0.0118203, 1, -1)
+depth = 5.62
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+offset_left = 974.0
+offset_top = 9.0
+offset_right = 1144.0
+offset_bottom = 273.0
+size_flags_stretch_ratio = 0.0
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(50, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+theme_override_constants/separation = 80
+alignment = 2
+
+[node name="PauseButton" type="Button" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(120, 32)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_fyqwn")
+theme_override_font_sizes/font_size = 30
+text = "Pause Button"
+
+[node name="unPause" type="Button" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(120, 32)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_fyqwn")
+theme_override_font_sizes/font_size = 30
+text = "Pause Button"
+
+[node name="Exit" type="Button" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(120, 32)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_fyqwn")
+theme_override_font_sizes/font_size = 40
+text = "Exit"
+
+[node name="separator" type="Control" parent="HBoxContainer/VBoxContainer"]
+layout_mode = 2

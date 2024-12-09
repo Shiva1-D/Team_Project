@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733676459
+::res://::1733680675
 default_env.tres::Environment::2615413279700566845::1733643046::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1733643046::0::1::::<><>::
 icon.png::CompressedTexture2D::4281203198146694467::1733643046::1733676459::1::::<><>::
@@ -63,7 +63,7 @@ Curved-track-base.obj::Mesh::3113416286552785680::1733643046::1733676460::1::::<
 Curved-track-extern-barrier.obj::Mesh::150259075644607374::1733643046::1733676460::1::::<><>::
 Curved-track-intern-barrier.obj::Mesh::6428950307997847041::1733643046::1733676460::1::::<><>::
 Straight-track .obj::Mesh::8792802674089346491::1733643046::1733676460::1::::<><>::
-::res://Assets/Textures/::1733676650
+::res://Assets/Textures/::1733676654
 grid.png::CompressedTexture2D::158169560628575881::1733643046::1733676459::1::::<><>::
 hdrihaven_com_kiara_3_morning.jpg::CompressedTexture2D::2806248773911096435::1733643046::1733676460::1::::<><>::
 hud-ui-gui-futuristic-user-interface-screen-elements-high-tech-screen-for-video-game-sci-fi-concept-design-vector.jpg::CompressedTexture2D::5344504368379523818::1730873867::1733676654::1::::<><>::
