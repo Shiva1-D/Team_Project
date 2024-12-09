@@ -1,13 +1,3 @@
 res://Scenes/First-Level.tscn
-res://Scenes/Curved-track.tscn
-res://Scenes/UI.tscn
-res://Assets/Models/Cars/RaceFuture/RaceFuture.tscn
-res://Scenes/Straight-track.tscn
-res://Third-Level.tscn
-res://Scenes/Second-Level.tscn
-res://Scenes/Fourth.tscn
-res://Cars/Caterham/Car.tscn
-res://Scenes/bullets.tscn
-res://Scenes/bullets.gd
-res://Scripts/caterham.gd
 res://Assets/Models/Cars/RaceFuture/window.material
+res://Scenes/Fourth.tscn
