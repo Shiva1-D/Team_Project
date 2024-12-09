@@ -1,3 +1,8 @@
 res://Scenes/First-Level.tscn
 res://Assets/Models/Cars/RaceFuture/window.material
+res://Scenes/main_menu.tscn
 res://Scenes/Fourth.tscn
+res://Scenes/bullets.tscn
+res://Cars/Caterham/Car.tscn
+res://Scenes/Third-Level.tscn
+res://Scenes/Second-Level.tscn

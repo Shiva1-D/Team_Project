@@ -1,9 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://tlyvg5cm1roq"]
+[gd_scene load_steps=11 format=3 uid="uid://bfm3tpo31hohf"]
 
 [ext_resource type="PackedScene" uid="uid://cp3cajvm01kws" path="res://Scenes/Ground.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://clspqp4qwd2io" path="res://Scenes/Straight-track.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://dkbx8tda3mpqq" path="res://Scenes/Curved-track.tscn" id="3"]
-[ext_resource type="PackedScene" uid="uid://c1jy2rghshda8" path="res://Assets/Models/Cars/RaceFuture/RaceFuture.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://c3oen5r68b3ki" path="res://Assets/Models/Cars/RaceFuture/RaceFuture.tscn" id="4"]
 [ext_resource type="PackedScene" uid="uid://dqjjcoym2sng5" path="res://Scenes/UI.tscn" id="5"]
 [ext_resource type="Script" path="res://Scripts/finish_lap_area.gd" id="6"]
 [ext_resource type="Script" path="res://Scripts/race_future.gd" id="7"]
@@ -11,6 +11,10 @@
 
 [sub_resource type="BoxShape3D" id="1"]
 size = Vector3(6.323, 2.57282, 2)
+
+[sub_resource type="SystemFont" id="SystemFont_xrh2k"]
+font_names = PackedStringArray("Impact")
+subpixel_positioning = 0
 
 [node name="First-Level" type="Node3D"]
 script = ExtResource("8")
@@ -25,7 +29,6 @@ shadow_enabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 
 [node name="RaceFuture" parent="Car" groups=["player"] instance=ExtResource("4")]
-transform = Transform3D(-1.62921e-07, 0, -1, 0, 1, 0, 1, 0, -1.62921e-07, 2.70879, 0.618946, 80.8076)
 script = ExtResource("7")
 engine_force_value = 280.0
 brake_force_value = 5.0
@@ -45,73 +48,13 @@ transform = Transform3D(-1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 15, 2,
 [node name="Curved-track3" parent="Circuit/Curved-track" instance=ExtResource("3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 2, -1)
 
-[node name="NewTrackCurved11" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -4.29121, 2.61895, 96.8076)
-
-[node name="NewTrackCurved12" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.291206, 2.61895, 98.8076)
-
-[node name="NewTrackCurved10" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.7088, 2.61895, 99.8076)
-
-[node name="NewTrackCurved9" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, -7.29121, 2.61895, 71.8076)
-
-[node name="NewTrackCurved8" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 2.70879, 2.61895, 59.8076)
-
-[node name="NewTrackCurved7" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.708794, 2.61895, 63.8076)
-
-[node name="NewTrackCurved6" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.70879, 2.61895, 56.8076)
-
-[node name="NewTrackCurved5" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 7.70879, 2.61895, 106.808)
-
-[node name="NewTrackCurved4" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.70879, 2.61895, 84.8076)
-
-[node name="NewTrackCurved3" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.7088, 2.61895, 71.8076)
-
-[node name="NewTrackCurved2" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.708794, 2.61895, 83.8076)
-
-[node name="NewTrackCurved1" parent="Circuit/Curved-track" instance=ExtResource("3")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 7.70879, 2.61895, 86.8076)
-
 [node name="Curved-track6" parent="Circuit/Curved-track" instance=ExtResource("3")]
 transform = Transform3D(-1.62921e-07, 0, -1, 0, 1, 0, 1, 0, -1.62921e-07, 8, 2, -8)
 
 [node name="Straight-track" type="Node3D" parent="Circuit"]
 
 [node name="Straight-track " parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00236893, 0, 0.0153046)
-
-[node name="NewTrackStraight1" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.70879, 0.618946, 70.8076)
-
-[node name="NewTrackStraight2" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.70879, 0.618946, 64.8076)
-
-[node name="NewTrackStraight3" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.70879, 0.618946, 92.8076)
-
-[node name="NewTrackStraight4" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.70879, 0.618946, 98.8076)
-
-[node name="NewTrackStraight5" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.29121, 0.618946, 90.8076)
-
-[node name="NewTrackStraight6" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.29121, 0.618946, 78.8076)
-
-[node name="NewTrackStraight7" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.29121, 0.618946, 84.8076)
-
-[node name="NewTrackStraight8" parent="Circuit/Straight-track" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.29121, 0.618946, 72.8076)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0712738, -0.00744319, 0.00085989)
 
 [node name="Straight-track 2" parent="Circuit/Straight-track" instance=ExtResource("2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
@@ -179,25 +122,16 @@ shape = SubResource("1")
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-grow_vertical = 0
 text = "00:00"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="LapCounter" type="Label" parent="GUI" groups=["laps"]]
-offset_left = 198.0
-offset_top = 4.0
-offset_right = 255.0
-offset_bottom = 27.0
 text = "Lap 0/3"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="SpeedMeter" type="Label" parent="GUI" groups=["velocity"]]
-offset_left = 500.0
-offset_top = 100.0
-offset_right = 555.0
-offset_bottom = 123.0
 text = "0 km/h"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -225,6 +159,41 @@ vertical_alignment = 1
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+offset_left = 974.0
+offset_top = 9.0
+offset_right = 1144.0
+offset_bottom = 273.0
+size_flags_stretch_ratio = 0.0
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(50, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+theme_override_constants/separation = 80
+alignment = 2
+
+[node name="PauseButton" type="Button" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(120, 32)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_xrh2k")
+theme_override_font_sizes/font_size = 30
+text = "Pause Button"
+
+[node name="Exit" type="Button" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(120, 32)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_xrh2k")
+theme_override_font_sizes/font_size = 40
+text = "Exit"
+
+[node name="separator" type="Control" parent="HBoxContainer/VBoxContainer"]
+layout_mode = 2
 
 [connection signal="body_entered" from="FinishLapArea" to="FinishLapArea" method="_on_Area_body_entered"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

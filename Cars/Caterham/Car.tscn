@@ -1,20 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://cpskgv2pgebl4"]
+[gd_scene load_steps=4 format=3 uid="uid://cvp0mar5l5m8i"]
 
 [ext_resource type="PackedScene" uid="uid://cyqar6ilxi64x" path="res://Assets/Models/Cars/Caterham/caterham.gltf" id="1"]
 [ext_resource type="Script" path="res://Scripts/caterham.gd" id="2"]
-[ext_resource type="Material" path="res://Assets/Models/Cars/Caterham/glossy metall.material" id="3_4ajuo"]
-[ext_resource type="Script" path="res://Cars/Caterham/gun.gd" id="3_6s8ey"]
-
-[sub_resource type="CylinderMesh" id="CylinderMesh_cfgsb"]
-top_radius = 0.095
-bottom_radius = 0.093
-height = 0.001
-
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_wsnd0"]
-material = ExtResource("3_4ajuo")
-radius = 0.094
-
-[sub_resource type="Skin" id="Skin_w76d5"]
 
 [sub_resource type="BoxShape3D" id="1"]
 size = Vector3(1.76902, 0.902682, 3.3091)
@@ -23,26 +10,10 @@ size = Vector3(1.76902, 0.902682, 3.3091)
 mass = 58.6735
 script = ExtResource("2")
 
-[node name="Gun" type="Node3D" parent="." index="0"]
-script = ExtResource("3_6s8ey")
-
-[node name="muzzle" type="Node3D" parent="Gun" index="0"]
-transform = Transform3D(0.6, 0, 0, 0, 0.6, 1.86265e-09, 0, -1.86265e-09, 0.6, 0.330348, 0.296368, 0.20016)
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Gun/muzzle" index="0"]
-transform = Transform3D(1, 0, 0, 0, 0.00822042, -0.999966, 0, 0.999966, 0.00822042, -0.538149, 0.756869, 2.05934)
-mesh = SubResource("CylinderMesh_cfgsb")
-
-[node name="barrel" type="MeshInstance3D" parent="Gun" index="1"]
-transform = Transform3D(0.6, 0, 0, 0, -0.0220072, -0.599596, 0, 0.599596, -0.0220072, 0.00722296, 0.773109, 0.827365)
-mesh = SubResource("CapsuleMesh_wsnd0")
-skin = SubResource("Skin_w76d5")
-skeleton = NodePath("../..")
-
-[node name="Lamp" parent="." index="6"]
+[node name="Lamp" parent="." index="5"]
 visible = false
 
-[node name="left_front" parent="." index="7"]
+[node name="left_front" parent="." index="6"]
 transform = Transform3D(1, 0, 0, 0, 1, -1.31134e-07, 0, 1.31134e-07, 1, 0.856, 0.37, 1.275)
 use_as_steering = true
 wheel_roll_influence = 0.5
@@ -57,7 +28,7 @@ damping_relaxation = 0.8
 [node name="left_front" parent="left_front" index="0"]
 transform = Transform3D(0.0254, 0, 0, 0, 0.0254, 0, 0, 0, 0.0254, 0, 0, 0)
 
-[node name="left_rear" parent="." index="8"]
+[node name="left_rear" parent="." index="7"]
 transform = Transform3D(1, 0, 0, 0, 1, -1.31134e-07, 0, 1.31134e-07, 1, 0.935, 0.37, -1.255)
 use_as_traction = true
 wheel_roll_influence = 0.5
@@ -73,7 +44,7 @@ damping_relaxation = 0.6
 [node name="left_rear" parent="left_rear" index="0"]
 transform = Transform3D(0.0254, 0, 0, 0, 0.0254, 0, 0, 0, 0.0254, 0, 0, 0)
 
-[node name="right_front" parent="." index="9"]
+[node name="right_front" parent="." index="8"]
 transform = Transform3D(1, 0, 0, 0, 1, -1.31134e-07, 0, 1.31134e-07, 1, -0.856, 0.37, 1.275)
 use_as_steering = true
 wheel_roll_influence = 0.5
@@ -88,7 +59,7 @@ damping_relaxation = 0.8
 [node name="right_front" parent="right_front" index="0"]
 transform = Transform3D(0.0254, 0, 0, 0, 0.0254, 0, 0, 0, 0.0254, 0, 0, 0)
 
-[node name="right_rear" parent="." index="10"]
+[node name="right_rear" parent="." index="9"]
 transform = Transform3D(1, 0, 0, 0, 1, -1.31134e-07, 0, 1.31134e-07, 1, -0.935, 0.37, -1.255)
 use_as_traction = true
 wheel_roll_influence = 0.5
@@ -104,6 +75,6 @@ damping_relaxation = 0.6
 [node name="right_rear" parent="right_rear" index="0"]
 transform = Transform3D(0.0254, 0, 0, 0, 0.0254, 0, 0, 0, 0.0254, 0, 0, 0)
 
-[node name="CollisionShape" type="CollisionShape3D" parent="." index="12"]
+[node name="CollisionShape" type="CollisionShape3D" parent="." index="11"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.631179, 0)
 shape = SubResource("1")

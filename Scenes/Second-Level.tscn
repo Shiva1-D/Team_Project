@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://dtcmlafdy2syw"]
+[gd_scene load_steps=7 format=3 uid="uid://cdonx5prgt0ga"]
 
 [ext_resource type="PackedScene" uid="uid://cp3cajvm01kws" path="res://Scenes/Ground.tscn" id="1"]
-[ext_resource type="PackedScene" uid="uid://cpskgv2pgebl4" path="res://Cars/Caterham/Car.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://cvp0mar5l5m8i" path="res://Cars/Caterham/Car.tscn" id="2"]
+[ext_resource type="AudioStream" uid="uid://cowttn4o588q3" path="res://Assets/Models/Cars/Caterham/fantastic atmosphere.mp3" id="3_yk1sx"]
 [ext_resource type="Script" path="res://Scripts/camera.gd" id="4"]
 [ext_resource type="PackedScene" uid="uid://dqjjcoym2sng5" path="res://Scenes/UI.tscn" id="5"]
 [ext_resource type="PackedScene" uid="uid://0whnjln4gg1i" path="res://Scenes/Track.tscn" id="6"]
@@ -15,10 +16,14 @@ transform = Transform3D(1, 0, 0, 0, -0.843401, 0.537285, 0, -0.537285, -0.843401
 shadow_enabled = true
 
 [node name="Car" type="Node3D" parent="."]
-transform = Transform3D(0.881605, 0.0667963, 0.467239, -0.0590198, 0.997767, -0.0312797, -0.468285, -3.68206e-09, 0.883578, -12.6024, -1.10937, 3.99805)
+transform = Transform3D(0.883578, 0, 0.468285, 0, 1, 0, -0.468285, 0, 0.883578, -12.6024, 0.524355, 0)
 
 [node name="Car" parent="Car" instance=ExtResource("2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.23984, 2.61015, 2.33937)
+transform = Transform3D(0.977681, 0.209759, -0.0118285, -0.209759, 0.971413, -0.11117, -0.0118285, 0.11117, 0.993731, -2.0431, 0.663837, 1.99558)
+
+[node name="BackGroundMusic" type="AudioStreamPlayer3D" parent="Car"]
+stream = ExtResource("3_yk1sx")
+autoplay = true
 
 [node name="Camera" type="Camera3D" parent="."]
 transform = Transform3D(-1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 0.42428, 4.33854, -8.96471)
